@@ -1,0 +1,46 @@
+LANGLOIS
+
+Exercice 1
+
+Question 4 - maven version : 3.6.3
+
+Question 5 - Le groupId permet d'identifier un projet par rapport a d'autres projets, il sert donc a nommer le projet de maniere unique. Le artifactId permet de nommer les differents package
+
+Question 6 - Le repertoire target contient trois elements : classes, generated-sources ainsi que maven-status
+
+Question 8 - Le class path permet d'indiquer à la machine virtuelle quelles sont les chemins des classes et des packages nécessaires à exécuter la classe indiquée à la suite de la ligne   
+
+Question 13 - Celle propriété sert à indiquer avec quelles versions de java les classes compilées doivent etre compatibles
+
+
+Exercice 2
+
+Question 1 - Nous avons une erreur "no main manifest attribute" dans le jar
+
+
+Exercice 3
+
+Question 3 - Lorsque l'on réalise cette manipulation, il s'agit d'un raccourci qui permet de faire apparaitre la commande "system.out.println()" (un peu longue à taper en entier) 
+
+Question 4 - Cela fait automatiquement apparaitre "toString()"
+
+Question 5 - Lorsque l'on réalise cette manipulation, cela propose l'écriture de la fonction main
+
+Question 6 - Cela nous propose d'écrire "getToto()" et "setTOTO()"
+
+Question 7 - Cela permet de renommer un champ en renommant toutes les occurences de ce champ présentes dans la classe également
+
+Question 8 - Cela ouvre les classes associées
+
+
+
+
+
+
+
+
+
+
+
+
+
