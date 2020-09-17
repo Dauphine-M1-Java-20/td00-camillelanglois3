@@ -54,6 +54,11 @@ Question 6 - Le fichier REPONSES.txt contient la version que nous avions envoyé
 Question 7 - Nous aurions eu un conflit et cela aurait été à nous de choisir quelle version conserver
 
 
+Exercice 3
+
+Question 2 - Nous observons que le test.a fonctionné, il n'y a pas eu d'erreur. Lorsque nous changeons en assertTrue (false), nous remarquons que le test ne fonctionne plus, il y a une erreur. La méthode garantie que l'argument est true, si ça ne l'est pas cela renvoie une exception
+
+
 
 
 
