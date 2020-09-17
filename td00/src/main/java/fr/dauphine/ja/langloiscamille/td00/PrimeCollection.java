@@ -23,7 +23,10 @@ public class PrimeCollection {
 		}
 	}
 	
-	private boolean isPrime(int p) {
+	public boolean isPrime(int p) {
+		if((p==0)||(p==1)||(p==2)) {
+			return false;
+		}
 		for(int i=2; i<=Math.sqrt(p); i++) {
 			if(p%i==0) return false;
 		}
@@ -47,5 +50,6 @@ public class PrimeCollection {
     	PrimeCollection pc = new PrimeCollection();
     	pc.initRandom(100, 2000);
     	pc.printPrimes();
+    	System.out.println(pc.isPrime(4));
     }
 }
