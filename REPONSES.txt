@@ -1,5 +1,3 @@
-Changement 1
-
 LANGLOIS
 
 Exercice 1
@@ -35,8 +33,25 @@ Question 7 - Cela permet de renommer un champ en renommant toutes les occurences
 Question 8 - Cela ouvre les classes associées
 
 
-Changement 2
+TD00bis
 
+Exercice 1
+
+Question 2 - Les fichiers sources du projet td00 sont le pom.xml, la classe PrimeCollection.java. Les fichiers ne faisant pas partie des sources du projet sont ceux que contient le répertoire target.
+
+
+Question 5 - Git nous indique la ligne qui a été modifiée dans le fichier PrimeCollection.java
+
+
+Exercice 2 
+
+Question 3 - Au niveau du commit où pointe head, nous avons également "Origin master" qui est inscrit, ce qui signifie que le répertoire local et le répertoire distant sont synchronisés sur le même commit
+
+Question 5 - Nous avons une erreur car nous n'avons pas pris en compte les modifications qui ont été apportées auparavant (clone-de-javaavance) avant d'envoyer celles que nous venions de faire (dans javaavance)
+
+Question 6 - Le fichier REPONSES.txt contient la version que nous avions envoyée sur le dépot distant avec clone-de-javaavance, c'est à dire le changement en début de fichier mais il contient également le changement en fin de fichier, git à donc fait en sorte de combiner les deux modifications. On voit que nous avons un nouveau commit qui a servi à assembler la version qui était présente sur javaavance avec la version qui était sur le dépôt GitHub.
+
+Question 7 - Nous aurions eu un conflit et cela aurait été à nous de choisir quelle version conserver
 
 
 
